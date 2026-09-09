@@ -61,7 +61,7 @@
         rgba(255, 255, 255, 0.15) 58%,
         rgba(255, 255, 255, 0) 72%
     ),
-	url('../all-images/body-pix/slide2.png') top center/cover no-repeat;
+	url('../all-images/body-pix/slidebg-2.png') top center/cover no-repeat;
     background-size: cover;
     background-position: center;
     animation: fade2 9s infinite;

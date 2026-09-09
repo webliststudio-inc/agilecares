@@ -40,8 +40,8 @@
         <div class="slide-section">
             <div class="slide-inner-div">
                 <div class="text-div">
-                    <h1><span class="highlight">Supporting lives</span> with <span class="highlight2">compassionate care</span> for better living</h1>
-                    <p>At AGILE Cares, we provide person-centered care, tailored support, and a nurturing environment where individuals can thrive with dignity, respect, and grace.</p>
+                    <h1>Supported Living Services (SLS)</h1>
+                    <p>Supported Living Services empower adults with developmental disabilities to live in homes they own or lease, with individualized support that promotes independence, choice, and community inclusion.</p>
 
                     <div class="btn-div">  
                         <a href="<?php echo $websiteUrl ?>/#" class="service-btn" title="Our Services"> 
@@ -120,7 +120,7 @@
                 </div>
                 <div class="mission-image-wrapper">
                     <div class="image-div">
-                        <img src="all-images/images/mission-iamge.png" alt="mission-iamge">
+                        <img src="all-images/images/mission-image.png" alt="mission-iamge">
                         <div class="icon-overlay">
                             <i class="bi bi-play-circle"></i>
                             <p>watch our story</p>
@@ -160,7 +160,7 @@
              <div class="image-content">
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/supported-living-services.jpg" alt="supported-living-services">
+                        <img src="all-images/images/image_1.jpg" alt="supported-living-services">
                     </div>
 
                     <div class="service-content">
@@ -168,11 +168,10 @@
                             <i class="fa-solid fa-hand-holding-heart"></i>
                         </div>
 
-                         <h3>Supported Living Services</h3>
+                         <h3>Personal Care & Daily Living</h3>
 
                             <p>
-                                Personalized support that helps individuals live safely,
-                                independently, and comfortably within ...
+                                Assistance with bathing, dressing, grooming, mobility, toileting, and other essential daily activities....
                             </p>
 
                         <a href="#">
@@ -184,7 +183,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/medication-administration.jpg"alt="medication-administration">
+                        <img src="all-images/images/image_2.jpg"alt="medication-administration">
                     </div>
 
                     <div class="service-content">
@@ -192,11 +191,12 @@
                             <i class="bi bi-capsule"></i>
                         </div>
 
-                        <h3>Medication Administration</h3>
+                        <h3>Health & Medication Support</h3>
 
                         <p>
-                            Safe and accountable medication support with verified
-                            prescriptions, secure storage, and accurate daily ...
+                           Assistance with medical appointments, 
+                           medication reminders or administration as authorized,
+                            and coordination with...
                         </p>
 
                         <a href="#">
@@ -208,7 +208,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/safety-accountability.jpg" alt="safety-accountability">
+                        <img src="all-images/images/image_3.jpg" alt="safety-accountability">
                     </div>
 
                     <div class="service-content">
@@ -216,11 +216,10 @@
                           <i class="bi bi-house-door-fill"></i>
                         </div>
 
-                        <h3>Safety & Accountability</h3>
+                        <h3>Household Management</h3>
 
                         <p>
-                            A strong commitment to client protection through staff screening,
-                            safety credentials, abuse prevention...
+                            Support with meal preparation, cleaning, laundry, shopping, and coordinating home maintenance.
                         </p>
 
                         <a href="#">
@@ -232,7 +231,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/behavioral-support.jpg"alt="Behavioral Support Services">
+                        <img src="all-images/images/behavioral-support-services2.png"alt="Behavioral Support Services">
                     </div>
 
                     <div class="service-content">
@@ -240,11 +239,10 @@
                             <i class="fa-solid fa-users"></i>
                         </div>
 
-                       <h3>Behavioral Support</h3>
+                       <h3>Behavioral &  Support</h3>
 
                         <p>
-                            Evidence-based support developed with behavioral specialists,
-                            focusing on positive reinforcement and individual ...
+                          Individualized assistance and coordination with behavioral specialists and other professionals when needed.
                         </p>
 
                         <a href="#">
@@ -264,11 +262,10 @@
                          <i class="bi bi-shield-shaded"></i>
                         </div>
 
-                       <h3>24/7 Emergency Support</h3>
+                       <h3>24-Hour Emergency Backup</h3>
 
                         <p>
-                            Reliable on-call support with coordinated emergency planning
-                            connecting individuals, families...
+                          Access to a designated support contact at any hour for urgent needs and emergencies.
                         </p>
 
                         <a href="#">
@@ -280,7 +277,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/community-circles-of-support.jpg"alt="community-circles-of-support">
+                        <img src="all-images/images/image_6.jpg"alt="community-circles-of-support">
                     </div>
 
                     <div class="service-content">
@@ -288,11 +285,10 @@
                             <i class="fa-solid fa-handshake"></i>
                         </div>
 
-                        <h3>Community & Circles of Support</h3>
+                        <h3>Independent Living Skill Development </h3>
 
                         <p>
-                            Building natural relationships with family, neighbors, and peers
-                            while encouraging meaningful connection...
+                           Personalized instruction and encouragement to help individuals build confidence and perform daily...
                         </p>
 
                         <a href="#">
