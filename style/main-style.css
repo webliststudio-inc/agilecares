@@ -503,10 +503,14 @@
     border-radius: 25px;
     border: none;
     transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.index-section .body-div .body-div-in .mission-div .text-div .disc-btn:hover{
+    background-color: var(--primary-color);
 }
 
 .index-section .body-div .body-div-in .mission-div .text-div .disc-btn i{
-  
     color: var(--white-color);
 }
 
@@ -1095,7 +1099,7 @@
     display:flex;
     align-items:center;
     gap: 15px;
-    background: linear-gradient(-180deg, #faf8efbd, #fff);
+    background: linear-gradient(-110deg, #faf8efbd, #fff);
     border:1px solid #eee;
     border-radius:18px;
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.06);
