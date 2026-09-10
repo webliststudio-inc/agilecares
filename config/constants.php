@@ -10,7 +10,7 @@ $websiteUrl = 'http://localhost/weblist-studio/agilecares'; /// Local Url
 
 // $websitePath = $_SERVER['DOCUMENT_ROOT'];
 $websitePath = $_SERVER['DOCUMENT_ROOT'] . '/weblist-studio/agilecares'; //dirname(__FILE__);
-$codeVersion = '1.1';
+$codeVersion = date('Ymdhis'); /// System Code Version
 ?>
 <script>
 	var websiteUrl = "<?php echo $websiteUrl; ?>";
