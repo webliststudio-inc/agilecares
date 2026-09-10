@@ -372,7 +372,7 @@
             <div class="services-div eligible-div">
                 <div class="text-content">
                     <div class="service-title">
-                        <h3>WHO IS ELIGIBLE</h3>
+                        <h3><i class="bi bi-people-fill"></i> WHO IS ELIGIBLE</h3>
                     </div>
 
                     <h2>Who Can Receive <span>Support</span></h2>
@@ -390,34 +390,38 @@
                 <div class="eligibility-card-div">
                     <div class="eligibility-card"> 
                         <div class="card-icon"> 
-                           <i class="bi bi-person-fill-add"></i> 
+                            <i class="bi bi-person-fill-add"></i> 
                         </div> 
 
                         <div class="card-text"> 
                             <span>01</span> 
-                            <h4>Are 18 years of age or older.</h4> 
+                            <h4>Are 18 Years of Age or Older</h4>
+                            <p>Individuals must be 18 years of age or older to receive Supported Living Services.</p>
                         </div> 
                     </div> 
 
-                    <div class="eligibility-card"> 
-                        <div class="card-icon"> 
+                    <div class="eligibility-card colorgreen"> 
+                        <div class="card-icon colorgreen2"> 
                             <i class="bi bi-house-heart-fill"></i> 
                         </div> 
 
                         <div class="card-text"> 
-                            <span>02</span> 
-                            <h4>Live in a home they own or lease, or have recognized tenancy rights through an appropriate shared-housing arrangement.</h4> 
+                             <span class="colorgreen3">02</span > 
+                            <h4>Live in a Home They Own or Lease</h4>
+                           <p>Individuals must live in a home they own or lease, or have recognized tenancy rights through shared housing.</p>
                         </div> 
                     </div> 
 
-                    <div class="eligibility-card"> 
-                        <div class="card-icon"> 
+
+                    <div class="eligibility-card colorgreen"> 
+                        <div class="card-icon colorgreen2"> 
                             <i class="bi bi-house-check-fill"></i> 
                         </div> 
 
                         <div class="card-text"> 
-                            <span>03</span> 
-                            <h4>Live in a non-licensed residential setting that is not owned or controlled by the SLS provider.</h4> 
+                            <span class="colorgreen3">03</span > 
+                            <h4>Live in a Non-Licensed Residential Setting</h4>
+                            <p>The residential setting must not be owned or controlled by the Supported Living Services provider.</p>
                         </div> 
                     </div> 
 
@@ -428,7 +432,8 @@
 
                         <div class="card-text"> 
                             <span>04</span> 
-                            <h4>Choose Supported Living Services through the person-centered planning process.</h4> 
+                            <h4>Choose Supported Living Services</h4>
+                            <p>Individuals choose Supported Living Services through the person-centered planning process.</p>
                         </div> 
                     </div>
                 </div>
