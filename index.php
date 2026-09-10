@@ -114,13 +114,13 @@
 
                     <span>-Built On Nuture & Grace</span>
 
-                    <button class="disc-btn" title="Discover Our Story"
-                       <?php echo $websiteUrl ?>> Discover Our Story<i class="bi bi-arrow-right"></i>
+                    <button class="disc-btn" title="Discover Our Story">
+                        Discover Our Story <i class="bi bi-arrow-right"></i>
                     </button>
                 </div>
                 <div class="mission-image-wrapper">
                     <div class="image-div">
-                        <img src="all-images/images/mission-image.png" alt="mission-iamge">
+                        <img src="all-images/body-pix/mission.jpeg" alt="mission-iamge">
                         <div class="icon-overlay">
                             <i class="bi bi-play-circle"></i>
                             <p>watch our story</p>
