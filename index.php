@@ -148,7 +148,7 @@
          <div class="services-div">
             <div class="text-content">
                 <div class="service-title">
-                    <h3>Our Services</h3>
+                    <h3>OUR SERVICES</h3>
                 </div>
                  <h2>Comprehensive Care Tailored To <span>Every Individual</span></h2>
                   <div class="icon-div">
@@ -432,17 +432,13 @@
                         </div> 
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-
-
     
      <?php include 'footer.php';?>
    </section> 
 
     <?php include 'bottom-scripts.php';?>
 </body>
-
 </html>

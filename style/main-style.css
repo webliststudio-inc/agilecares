@@ -687,7 +687,7 @@
 }
 
  .services-div .text-content .service-title h3{
-    font-size: 15px;
+    font-size: 12px;
     color: var(--secondary-color);
     font-family: sub-title-font;
 }
@@ -1084,7 +1084,7 @@
 
 .eligibility-card{
     width:49%;
-    padding: 20px 20px;
+    padding: 25px 20px;
     box-sizing:border-box;
     display:flex;
     align-items:center;
@@ -1152,26 +1152,8 @@
         width:100%;
         gap: 20px;
     }
-
     .eligibility-card{
         width:48%;
-        padding:20px;
-    }
-
-    .card-icon{
-        width:55px;
-        height:55px;
-        min-width:55px;
-        font-size:24px;
-    }
-
-    .card-text h4{
-        font-size:18px;
-    }
-
-    .card-text p{
-        font-size:13px;
-        line-height:1.6;
     }
 }
 
@@ -1188,7 +1170,7 @@
       line-height: 9vw;
     }
 
-      .text-content p{
+    .text-content p{
        color:var(--sub-body-color2);
         font-size:14px;
         line-height:1.7;
