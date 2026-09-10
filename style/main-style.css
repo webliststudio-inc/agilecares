@@ -1137,7 +1137,7 @@
 
 
 
-.card-text {
+.eligibility-card-div .card-text {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1149,7 +1149,7 @@
 
 
 
-.card-text span{
+.eligibility-card-div .card-text span{
     width: 27px;
     height: 27px;
     border-radius:50px;
@@ -1162,19 +1162,19 @@
     font-size:12px;
 }
 
-.card-text .colorgreen3{
+.eligibility-card-div .card-text .colorgreen3{
    background-color: rgba(76, 159, 56, 0.2);
     color: var(--secondary-color);
 }
 
-.card-text h4{
+.eligibility-card-div .card-text h4{
     color:var(--bold-color);
     font-size: 18px;
-    line-height: 20px;
+    line-height: 23px;
     font-family: sub-title-font;
 }
 
-.card-text p{
+.eligibility-card-div .card-text p{
     color:var(--sub-body-color2);
     line-height: 20px;
 }
@@ -1215,5 +1215,14 @@
      .eligibility-card{
         width:100%;
     }
+
+}  
+
+@media all and (max-width:500px){
+    .card-text p{
+        color:var(--sub-body-color2);
+        line-height: 20px;
+    }
+
 
 }  
