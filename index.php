@@ -150,7 +150,7 @@
                 <div class="service-title">
                     <h3>Our Services</h3>
                 </div>
-                 <h2>Comprehensive Care Tailored To Every Individual</h2>
+                 <h2>Comprehensive Care Tailored To <span>Every Individual</span></h2>
                   <div class="icon-div">
                      <i class="bi bi-heart-fill"></i>
                   </div>
@@ -160,7 +160,7 @@
              <div class="image-content">
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/image_1.jpg" alt="supported-living-services">
+                        <img src="all-images/services/image_1.jpg" alt="supported-living-services">
                     </div>
 
                     <div class="service-content">
@@ -183,7 +183,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/image_2.jpg"alt="medication-administration">
+                        <img src="all-images/services/Caregiver_assisting_with_medication.jpeg"alt="medication-administration">
                     </div>
 
                     <div class="service-content">
@@ -208,7 +208,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/image_3.jpg" alt="safety-accountability">
+                        <img src="all-images/services/Household Management.jpeg" alt="safety-accountability">
                     </div>
 
                     <div class="service-content">
@@ -231,7 +231,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/behavioral-support-services2.png"alt="Behavioral Support Services">
+                        <img src="all-images/services/Behavioral & Support.jpeg"alt="Behavioral Support Services">
                     </div>
 
                     <div class="service-content">
@@ -254,7 +254,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/emergency-support-24-7.jpg"alt="emergency-support-24-7">
+                        <img src="all-images/services/emergency-support-24-7.jpg"alt="emergency-support-24-7">
                     </div>
 
                     <div class="service-content">
@@ -277,7 +277,7 @@
 
                 <div class="service-image-card">
                     <div class="image-div">
-                        <img src="all-images/images/image_6.jpg"alt="community-circles-of-support">
+                        <img src="all-images/services/Independent Living Skill Development.jpeg"alt="community-circles-of-support">
                     </div>
 
                     <div class="service-content">
@@ -369,13 +369,13 @@
 
     <section class="body-div">
         <div class="body-div-in">
-            <div class="eligible-div">
+            <div class="services-div eligible-div">
                 <div class="text-content">
-                    <div class="title">
-                        <h3>WHO IS ELIGIBLE?</h3>
+                    <div class="service-title">
+                        <h3>WHO IS ELIGIBLE</h3>
                     </div>
 
-                    <h2>Understanding Your <span>Eligibility</span></h2>
+                    <h2>Who Can Receive <span>Support</span></h2>
 
                     <div class="icon-div">
                         <i class="bi bi-heart-fill"></i>
@@ -388,63 +388,49 @@
                 </div>
 
                 <div class="eligibility-card-div">
+                    <div class="eligibility-card"> 
+                        <div class="card-icon"> 
+                           <i class="bi bi-person-fill-add"></i> 
+                        </div> 
 
-                    <div class="eligibility-card">
-                        <div class="card-icon">
-                            <i class="bi bi-person-check-fill"></i>
-                        </div>
+                        <div class="card-text"> 
+                            <span>01</span> 
+                            <h4>Are 18 years of age or older.</h4> 
+                        </div> 
+                    </div> 
 
-                        <div class="card-text">
-                            <span>01</span>
-                            <h4>18 Years or Older</h4>
-                            <p>
-                                Individuals must be 18 years of age or older to be eligible for Supported Living Services.
-                            </p>
-                        </div>
+                    <div class="eligibility-card"> 
+                        <div class="card-icon"> 
+                            <i class="bi bi-house-heart-fill"></i> 
+                        </div> 
+
+                        <div class="card-text"> 
+                            <span>02</span> 
+                            <h4>Live in a home they own or lease, or have recognized tenancy rights through an appropriate shared-housing arrangement.</h4> 
+                        </div> 
+                    </div> 
+
+                    <div class="eligibility-card"> 
+                        <div class="card-icon"> 
+                            <i class="bi bi-house-check-fill"></i> 
+                        </div> 
+
+                        <div class="card-text"> 
+                            <span>03</span> 
+                            <h4>Live in a non-licensed residential setting that is not owned or controlled by the SLS provider.</h4> 
+                        </div> 
+                    </div> 
+
+                    <div class="eligibility-card"> 
+                        <div class="card-icon"> 
+                            <i class="bi bi-person-heart"></i> 
+                        </div> 
+
+                        <div class="card-text"> 
+                            <span>04</span> 
+                            <h4>Choose Supported Living Services through the person-centered planning process.</h4> 
+                        </div> 
                     </div>
-
-                    <div class="eligibility-card">
-                        <div class="card-icon">
-                            <i class="bi bi-house-heart-fill"></i>
-                        </div>
-
-                        <div class="card-text">
-                            <span>02</span>
-                            <h4>Stable Housing</h4>
-                            <p>
-                                You must live in a home you own, lease, or have recognized tenancy rights through an appropriate shared-housing arrangement.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="eligibility-card">
-                        <div class="card-icon">
-                            <i class="bi bi-house-check-fill"></i>
-                        </div>
-
-                        <div class="card-text">
-                            <span>03</span>
-                            <h4>Non-Licensed Residence</h4>
-                            <p>
-                                Your residence should be a non-licensed residential setting that is not owned or controlled by the SLS provider.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="eligibility-card">
-                        <div class="card-icon">
-                            <i class="bi bi-person-heart"></i>
-                        </div>
-
-                        <div class="card-text">
-                            <span>04</span>
-                            <h4>Person-Centered Planning</h4>
-                            <p>
-                                You must choose Supported Living Services as part of your individualized, person-centered planning process.
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
