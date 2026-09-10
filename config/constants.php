@@ -5,7 +5,7 @@ $appName = 'AGILE CARES';
 
 // $websiteUrl = 'https://agilecares.com'; /// Live Url
 $websiteUrl = 'http://localhost/weblist-studio/agilecares'; /// Local Url
-//$websiteUrl = 'http://172.20.10.7/weblist-studio/agilecares'; /// Local Url
+// $websiteUrl = 'http://172.20.10.4/weblist-studio/agilecares'; /// Local Url
 
 
 // $websitePath = $_SERVER['DOCUMENT_ROOT'];
