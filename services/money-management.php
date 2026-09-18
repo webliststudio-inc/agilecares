@@ -58,6 +58,16 @@
                                 Assistance with budgeting, bill payments, benefits paperwork, and coordination with a representative payee when applicable.
                             </p>
                         </div>
+
+                         <div class="btn-div">  
+                            <a href="<?php echo $websiteUrl ?>/services" class="service-btn" title="Our Services"> 
+                                Our Services <i class="bi bi-arrow-right-circle"></i> 
+                            </a> 
+
+                            <a href="<?php echo $websiteUrl ?>/contact-us" class="contact-btn" title="Contact Us"> 
+                                Contact Us  <i class="bi bi-telephone-inbound"></i>
+                            </a> 
+                        </div>
                     </div>
                 </div>
             </div>

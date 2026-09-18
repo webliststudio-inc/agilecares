@@ -89,21 +89,21 @@
             <ul>
 
                 <li>
-                    <a href="#">
+                    <a href="about-us">
                         <i class="fa-solid fa-chevron-right"></i>
                         <span>About Us</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="services">
                         <i class="fa-solid fa-chevron-right"></i>
                         <span>Our Services</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="care-polices">
                         <i class="fa-solid fa-chevron-right"></i>
                         <span>Care Policies</span>
                     </a>
@@ -124,7 +124,7 @@
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="contact-us">
                         <i class="fa-solid fa-chevron-right"></i>
                         <span>Contact Us</span>
                     </a>
@@ -137,57 +137,53 @@
 
         <!-- OUR SERVICES -->
         <div class="footer-column">
-
             <h3>Our Services</h3>
-
             <ul>
 
                 <li>
-                    <a href="#">
+                    <a href="personal-care">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Personal Care Assistance</span>
+                        <span>Personal Care & Daily Living</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="health-medication">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Medication Management</span>
+                        <span>Health & Medication Support</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="household-management">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Respite & Family Support</span>
+                        <span>Household Management</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="behavioral-support">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Behavioral Support Services</span>
+                        <span>Behavioral & Crisis Support</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="emergency-backup">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Safety & Emergency Support</span>
+                        <span>24-Hour Emergency Backup</span>
                     </a>
                 </li>
 
                 <li>
-                    <a href="#">
+                    <a href="skill-development">
                         <i class="fa-solid fa-chevron-right"></i>
-                        <span>Community Integration</span>
+                        <span>Independent Living Skill Development</span>
                     </a>
                 </li>
 
             </ul>
-
         </div>
-
 
         <!-- CONTACT -->
         <div class="footer-column">

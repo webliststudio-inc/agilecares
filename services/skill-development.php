@@ -33,6 +33,7 @@
 <body>
      <?php include '../alert.php'; ?>
      <?php include '../header.php'; ?>
+     
         <section class="slide">
             <div class="slide-section other-slide other-slide2">
                 <div class="slide-inner-div">
@@ -56,6 +57,16 @@
                             <p>
                                Personalized instruction and encouragement to help individuals build confidence and perform daily tasks more independently.
                             </p>
+                        </div>
+
+                         <div class="btn-div">  
+                            <a href="<?php echo $websiteUrl ?>/services" class="service-btn" title="Our Services"> 
+                                Our Services <i class="bi bi-arrow-right-circle"></i> 
+                            </a> 
+
+                            <a href="<?php echo $websiteUrl ?>/contact-us" class="contact-btn" title="Contact Us"> 
+                                Contact Us  <i class="bi bi-telephone-inbound"></i>
+                            </a> 
                         </div>
                     </div>
                 </div>

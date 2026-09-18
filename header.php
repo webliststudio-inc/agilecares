@@ -46,20 +46,20 @@
                                 </a>
 
                                 <a href="<?php echo $websiteUrl ?>/about-us" title="About Us">
-                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/about_us")) { ?>active<?php } ?>">
+                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/about-us")) { ?>active<?php } ?>">
                                         About Us
                                     </li>
                                 </a>
 
                                 <a href="<?php echo $websiteUrl ?>/services" title="Our Services">
-                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/our-services")) { ?>active<?php } ?>">
+                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/services")) { ?>active<?php } ?>">
                                         <i class="bi bi-plus"></i> Our Services
                                     </li>
                                 </a>
 
 
                                 <a href="<?php echo $websiteUrl ?>/care-polices" title="Care Policies" class="disp-none">
-                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/care-policies")) { ?>active<?php } ?>">
+                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/care-polices")) { ?>active<?php } ?>">
                                         Care Policies
                                     </li>
                                 </a>
