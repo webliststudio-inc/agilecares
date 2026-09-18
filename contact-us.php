@@ -106,7 +106,7 @@
 
                             <div class="info-text-div">
                                 <h3>LOCATION</h3>
-                                <p>13180 Westpark Drive <br>Ste 201 B/D Houston, <br> TX 77082 USA</p>
+                                <p>San Francisco California, USA.</p>
                             </div>
                         </div>
                     </div>

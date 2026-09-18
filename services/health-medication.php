@@ -60,6 +60,16 @@
                                Assistance with medical appointments, medication reminders or administration as authorized, and coordination with healthcare providers.
                             </p>
                         </div>
+
+                         <div class="btn-div">  
+                            <a href="<?php echo $websiteUrl ?>/services" class="service-btn" title="Our Services"> 
+                                Our Services <i class="bi bi-arrow-right-circle"></i> 
+                            </a> 
+
+                            <a href="<?php echo $websiteUrl ?>/contact-us" class="contact-btn" title="Contact Us"> 
+                                Contact Us  <i class="bi bi-telephone-inbound"></i>
+                            </a> 
+                        </div>
                     </div>
                 </div>
             </div>
