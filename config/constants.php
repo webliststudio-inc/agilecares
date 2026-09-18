@@ -4,8 +4,8 @@ $websiteAutoUrl = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[H
 $appName = 'AGILE CARES';
 
 // $websiteUrl = 'https://agilecares.com'; /// Live Url
-// $websiteUrl = 'http://localhost/weblist-studio/agilecares'; /// Local Url
-$websiteUrl = 'http://172.20.10.4/weblist-studio/agilecares'; /// Local Url																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+$websiteUrl = 'http://localhost/weblist-studio/agilecares'; /// Local Url
+// $websiteUrl = 'http://172.20.10.4/weblist-studio/agilecares'; /// Local Url																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
 
 
 // $websitePath = $_SERVER['DOCUMENT_ROOT'];
