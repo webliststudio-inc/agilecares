@@ -4,7 +4,7 @@
             <div class="help-content">
 
                 <div class="help-logo">
-                    <img src="all-images/images/icon.png" alt="AGILE Cares">
+                    <img src="<?php echo $websiteUrl ?>/all-images/images/icon.png" alt="AGILE Cares">
                 </div>
 
                 <div class="help-text">
@@ -46,7 +46,7 @@
         <div class="footer-brand">
 
             <div class="footer-logo">
-                <img src="all-images/images/logo.png" alt="AGILE Cares">
+                <img src="<?php echo $websiteUrl ?>/all-images/images/logo.png" alt="AGILE Cares">
             </div>
 
             <p>
@@ -268,26 +268,23 @@
 
            <div class="pdiv">
              <p>Copyright © 2026 . All Rights Reserved </p>
-            <a href="https://webliststudio.com/">
-                <p>Developed by Weblist Studio Solution Inc.</p>
-            </a>
-           </div>
-
-            <div class="footer-legal">
-
-                <a href="#">Privacy Policy</a>
-
-                <span>|</span>
-
-                <a href="#">Terms of Use</a>
-
-            </div>
-
-        </div>
-
-    </div>
-
+            <a href="https://webliststudio.com/"> 
+                <p>Developed by Weblist Studio Solution Inc.</p> 
+            </a> 
+           </div> 
+ 
+            <div class="footer-legal"> 
+ 
+                <a href="#">Privacy Policy</a> 
+ 
+                <span>|</span> 
+ 
+                <a href="#">Terms of Use</a> 
+ 
+            </div> 
+ 
+        </div> 
+ 
+    </div> 
+ 
 </footer>
-
-
-

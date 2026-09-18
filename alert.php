@@ -93,8 +93,8 @@
 
         <!-- ABOUT US -->
         <div class="div">
-            <a href="<?php echo $websiteUrl ?>/#" title="About Us">
-                <li <?php if ($page == 'about_us') { ?> id="active-li" <?php } ?>>
+            <a href="<?php echo $websiteUrl ?>/about-us" title="About Us">
+                <li <?php if ($page == 'about-us') { ?> id="active-li" <?php } ?>>
                     <i class="bi-info-circle"></i> About Us
                 </li>
             </a>
@@ -103,7 +103,6 @@
 
         <!-- OUR SERVICES -->
         <div class="div">
-
             <li onclick="_open_li('OurServices')">
                 <i class="bi-grid"></i> Our Services
                 <i class="bi-plus" id="side-expand"></i>
@@ -111,77 +110,86 @@
 
             <div class="sub-li" id="OurServices-sub-li">
 
-                <a href="<?php echo $websiteUrl ?>/#">
+                <a href="<?php echo $websiteUrl ?>/services">
                     <li>
                         <i class="bi-house-heart"></i>
                         Supported Living Services
                     </li>
                 </a>
 
-                <a href="<?php echo $websiteUrl ?>/our-services">
+                <a href="<?php echo $websiteUrl ?>/services/personal-care">
+                    <li>
+                        <i class="bi-person-heart"></i>
+                        Personal Care & Daily Living
+                    </li>
+                </a>
+
+                <a href="<?php echo $websiteUrl ?>/services/health-medication">
                     <li>
                         <i class="bi-capsule"></i>
-                        Medication Administration
+                        Health & Medication Support
                     </li>
                 </a>
 
-                <a href="<?php echo $websiteUrl ?>/our-services">
+                <a href="<?php echo $websiteUrl ?>/services/household-management">
                     <li>
-                        <i class="bi-shield-check"></i>
-                        Safety & Accountability
+                        <i class="bi-house-check"></i>
+                        Household Management
                     </li>
                 </a>
 
-                <a href="<?php echo $websiteUrl ?>/our-services">
+                <a href="<?php echo $websiteUrl ?>/services/behavioral-support">
                     <li>
                         <i class="bi-heart-pulse"></i>
                         Behavioral Support
                     </li>
                 </a>
 
-                <a href="<?php echo $websiteUrl ?>/our-services">
+                <a href="<?php echo $websiteUrl ?>/services/emergency-backup">
                     <li>
                         <i class="bi-exclamation-circle"></i>
-                        24/7 Emergency Support
+                        24-Hour Emergency Backup
                     </li>
                 </a>
 
-                <a href="<?php echo $websiteUrl ?>/our-services">
+                <a href="<?php echo $websiteUrl ?>/services/community-access">
                     <li>
                         <i class="bi-people"></i>
-                        Community & Circles of Support
+                        Community Access
+                    </li>
+                </a>
+
+                <a href="<?php echo $websiteUrl ?>/services/money-management">
+                    <li>
+                        <i class="bi-wallet2"></i>
+                        Money Management
+                    </li>
+                </a>
+
+                <a href="<?php echo $websiteUrl ?>/services/skill-development">
+                    <li>
+                        <i class="bi-person-workspace"></i>
+                        Skill Development
                     </li>
                 </a>
 
             </div>
-
         </div>
 
         <!-- CARE POLICIES -->
         <div class="div">
-            <a href="<?php echo $websiteUrl ?>/#" title="Care Policies">
+            <a href="<?php echo $websiteUrl ?>/care-polices" title="Care Policies">
                 <li <?php if ($page == 'care-policies') { ?> id="active-li" <?php } ?>>
                     <i class="bi-shield-check"></i> Care Policies
                 </li>
             </a>
         </div>
 
-
-        <!-- RESOURCES -->
-        <div class="div">
-            <a href="<?php echo $websiteUrl ?>/#" title="Resources">
-                <li <?php if ($page == 'resources') { ?> id="active-li" <?php } ?>>
-                    <i class="bi-book"></i> Resources
-                </li>
-            </a>
-        </div>
-
-
         <!-- CAREERS -->
         <div class="div">
-            <a href="<?php echo $websiteUrl ?>/#" title="Careers">
-                <li <?php if ($page == 'careers') { ?> id="active-li" <?php } ?>>
-                    <i class="bi-briefcase"></i> Careers
+            <a href="<?php echo $websiteUrl ?>/brochure/AGILE SLS Trifold Brochure.pdf" title="brochure">
+                <li <?php if ($page == 'brochure') { ?> id="active-li" <?php } ?>>
+                  <i class="bi bi-download"></i> brochure
                 </li>
             </a>
         </div>
