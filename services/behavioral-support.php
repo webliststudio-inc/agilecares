@@ -416,7 +416,7 @@
                                             needs and goals.
                                         </span>
 
-                                        <a href="<?php echo $websiteUrl ?>/contact_us" class="service-page-btn">
+                                        <a href="<?php echo $websiteUrl ?>/contact-us" class="service-page-btn">
                                             Contact Us
                                             <i class="fa-solid fa-arrow-right"></i>
                                         </a>
