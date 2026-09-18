@@ -19,66 +19,128 @@
   position: relative;
   z-index: 2;
 }
-
 .slide-section::before,
 .slide-section::after{
     content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1;
-	background-size: cover;
-	background-position: center;
-	animation-duration: 12s;
-	animation-iteration-count: infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+
+
+
+/* FIRST AND THIRD IMAGE */
 .slide-section::before{
     background:
     linear-gradient(
         to right,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, 0.95) 25%,
-        rgba(255, 255, 255, 0.65) 40%,
-        rgba(255, 255, 255, 0.15) 58%,
-        rgba(255, 255, 255, 0) 72%
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,0.95) 25%,
+        rgba(255,255,255,0.65) 40%,
+        rgba(255,255,255,0.15) 58%,
+        rgba(255,255,255,0) 72%
     ),
-	url('../all-images/body-pix/slide-bg.jpeg') top center/cover no-repeat;
-    background-size: cover;
-    background-position: center;
-    animation: fade1 9s infinite;
+    url('../all-images/body-pix/slide-bg.jpeg') top center/cover no-repeat;
+    animation: slide-before 20s infinite;
 }
 
+/* SECOND AND FOURTH IMAGE */
 .slide-section::after{
     background:
     linear-gradient(
         to right,
-        rgba(255, 255, 255, 1) 0%,
-        rgba(255, 255, 255, 0.95) 25%,
-        rgba(255, 255, 255, 0.65) 40%,
-        rgba(255, 255, 255, 0.15) 58%,
-        rgba(255, 255, 255, 0) 72%
+        rgba(255,255,255,1) 0%,
+        rgba(255,255,255,0.95) 25%,
+        rgba(255,255,255,0.65) 40%,
+        rgba(255,255,255,0.15) 58%,
+        rgba(255,255,255,0) 72%
     ),
-	url('../all-images/body-pix/slidebg-2.png') top center/cover no-repeat;
-    background-size: cover;
-    background-position: center;
-    animation: fade2 9s infinite;
+    url('../all-images/body-pix/slidebg-2.png') top center/cover no-repeat;
+    animation: slide-after 20s infinite;
 }
 
-/* slide-change */
-@keyframes fade1{
-  0%,45%{opacity:1;}
-  50%,95%{opacity:0;}
-  100%{opacity:1;}
+/* FIRST LAYER */
+@keyframes slide-before{
+    0%,20%{
+        opacity: 1;
+        background-image:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,1) 0%,
+            rgba(255,255,255,0.95) 25%,
+            rgba(255,255,255,0.65) 40%,
+            rgba(255,255,255,0.15) 58%,
+            rgba(255,255,255,0) 72%
+        ),
+        url('../all-images/body-pix/slide-bg.jpeg');
+    }
+    25%,45%{
+        opacity: 0;
+    }
+    50%,70%{
+        opacity: 1;
+        background-image:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,1) 0%,
+            rgba(255,255,255,0.95) 25%,
+            rgba(255,255,255,0.65) 40%,
+            rgba(255,255,255,0.15) 58%,
+            rgba(255,255,255,0) 72%
+        ),
+        url('../all-images/body-pix/slidemanwhite.png');
+    }
+    75%,100%{
+        opacity: 0;
+    }
+}
+/* SECOND LAYER */
+@keyframes slide-after{
+    0%,20%{
+        opacity: 0;
+    }
+    25%,45%{
+        opacity: 1;
+        background-image:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,1) 0%,
+            rgba(255,255,255,0.95) 25%,
+            rgba(255,255,255,0.65) 40%,
+            rgba(255,255,255,0.15) 58%,
+            rgba(255,255,255,0) 72%
+        ),
+        url('../all-images/body-pix/slidebg-2.png');
+    }
+    50%,70%{
+        opacity: 0;
+    }
+    75%,95%{
+        opacity: 1;
+        background-image:
+        linear-gradient(
+            to right,
+            rgba(255,255,255,1) 0%,
+            rgba(255,255,255,0.95) 25%,
+            rgba(255,255,255,0.65) 40%,
+            rgba(255,255,255,0.15) 58%,
+            rgba(255,255,255,0) 72%
+        ),
+        url('../all-images/body-pix/slide-bg-man2.png');
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
-@keyframes fade2{
-  0%,45%{opacity:0;}
-  50%,95%{opacity:1;}
-  100%{opacity:0;}
-}
+
 
 .slide-section .slide-inner-div{
    width: 85%;
@@ -123,12 +185,12 @@
 .slide-section .slide-inner-div .text-div .btn-div a {
     text-decoration: none;
     font-family: sub-title-font;
-     height: 45px;
+    height: 45px;
     padding: 0px 30px;
     border-radius: 25px;
     font-size: 15px;
     transition: 0.3s ease;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -753,9 +815,8 @@
 .services-div .image-content {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
 }
 
 .services-div .image-content .service-image-card {

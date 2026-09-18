@@ -45,39 +45,30 @@
                                     </li>
                                 </a>
 
-                                <a href="<?php echo $websiteUrl ?>/#" title="About Us">
+                                <a href="<?php echo $websiteUrl ?>/about-us" title="About Us">
                                     <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/about_us")) { ?>active<?php } ?>">
                                         About Us
                                     </li>
                                 </a>
 
-                                <a href="<?php echo $websiteUrl ?>/#" title="Our Services">
+                                <a href="<?php echo $websiteUrl ?>/services" title="Our Services">
                                     <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/our-services")) { ?>active<?php } ?>">
                                         <i class="bi bi-plus"></i> Our Services
                                     </li>
                                 </a>
 
 
-                                <a href="<?php echo $websiteUrl ?>/#" title="Care Policies" class="disp-none">
+                                <a href="<?php echo $websiteUrl ?>/care-polices" title="Care Policies" class="disp-none">
                                     <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/care-policies")) { ?>active<?php } ?>">
                                         Care Policies
                                     </li>
                                 </a>
 
-                                <a href="<?php echo $websiteUrl ?>/#" title="Resources" class="disp-none">
-                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/resources")) { ?>active<?php } ?>">
-                                        Resources
+                                <a href="<?php echo $websiteUrl ?>/brochure/AGILE SLS Trifold Brochure.pdf" title="Download Brochure"class="disp-none">
+                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/brochure")) { ?>active<?php } ?>">
+                                        Download Brochure
                                     </li>
                                 </a>
-
-                                <a href="<?php echo $websiteUrl ?>/#" title="Careers" class="disp-none">
-                                    <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/careers")) { ?>active<?php } ?>">
-                                        Careers
-                                    </li>
-                                </a>
-
-
-
                                 <li id="readMore" class="read-more-li">
                                     <i class="bi bi-plus"></i> More
                                     <ul>
@@ -102,7 +93,7 @@
 
                             </ul>
 
-                             <a href="<?php echo $websiteUrl ?>" title="Contact Us">
+                             <a href="<?php echo $websiteUrl?>/contact-us" title="Contact Us">
                                 <button class="contact-btn">
                                     Contact Us <i class="bi bi-telephone-inbound"></i>
                                 </button>

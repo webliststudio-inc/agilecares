@@ -13,6 +13,8 @@
 <link href="<?php echo $websiteUrl?>/style/main-style.css?v=<?php echo $codeVersion?>" type="text/css" rel="stylesheet" />
 <link href="<?php echo $websiteUrl?>/style/header.css?v=<?php echo $codeVersion?>" type="text/css" rel="stylesheet" />
 <link href="<?php echo $websiteUrl?>/style/footer.css?v=<?php echo $codeVersion?>" type="text/css" rel="stylesheet" />
+<link href="<?php echo $websiteUrl?>/style/other-pages.css?v=<?php echo $codeVersion?>" type="text/css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
 
 <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>

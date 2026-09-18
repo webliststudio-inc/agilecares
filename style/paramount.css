@@ -127,6 +127,7 @@ ul{
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	outline: none !important;
+	border-radius: 10px;
 }
 
 .text_field_container .select_text_field {
