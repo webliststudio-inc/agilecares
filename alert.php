@@ -23,17 +23,17 @@
 
 <div class="sidenavdiv">
     <div class="live-chat-back-div">
-    <a href="tel:+1 (555) 123-4567" title="Call Customer Care">
+    <a href="tel:+1 (209) 741-0783" title="Call Customer Care">
         <div class="chat-div">
             <div class="icon-div" style="background:#008040;"><i class="bi-telephone-outbound"></i></div>
-            <div class="text">+1 (555) 123-4567</div>
+            <div class="text">+1(209) 741-0783</div>
           <br clear="all" />
         </div>
     </a>
     <a href="https://api.whatsapp.com/" target="_blank" title="Whatsapp">
         <div class="chat-div">
             <div class="icon-div" style="background:#25D366;"><i class="bi-whatsapp"></i></div>
-            <div class="text">+1 (555) 123-4567</div>
+            <div class="text">+1(209) 741-0783</div>
           <br clear="all" />
         </div>
     </a>

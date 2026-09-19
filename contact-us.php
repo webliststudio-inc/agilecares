@@ -95,7 +95,7 @@
 
                             <div class="info-text-div">
                                 <h3>CALL US</h3>
-                                <p>+1 (555) 123-4567</p>
+                                <p>+1(209) 741-0783</p>
                             </div>
                         </div>
 
