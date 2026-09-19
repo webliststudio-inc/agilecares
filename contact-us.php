@@ -6,28 +6,38 @@
 
 <head>
     <?php include 'meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Contact Us</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="contact Agile Cares, Agile Cares contact, supported living services contact, independent living services contact, disability support services, disability care services, supported living provider, independent living support, developmental disability support, person-centered care, disability assistance, community living support, life skills support, behavioral support services, residential support services, disability support agency, special needs support services, disability care provider, community-based support services" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="Contact AGILE CARES to learn more about our person-centered supported living, independent living, and disability support services. Our team is here to answer your questions and help you explore available support." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Contact Us" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="Get in touch with AGILE CARES to learn more about supported living, independent living, and personalized disability support services." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
+        content="<?php echo $websiteUrl ?>/contact-us" />
+
     <meta property="og:site_name"
         content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Contact Us" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Contact AGILE CARES to ask questions, learn about our services, or explore personalized supported living and independent living support." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -58,7 +68,7 @@
                                 support can help promote independence, safety, and wellbeing.
                             </p>
                             <div class="btn-div">  
-                                <a href="<?php echo $websiteUrl ?>/Services" class="service-btn" title="Our Services"> 
+                                <a href="<?php echo $websiteUrl ?>/services" class="service-btn" title="Our Services"> 
                                     Our Services <i class="bi bi-arrow-right-circle"></i> 
                                 </a> 
 

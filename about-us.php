@@ -6,28 +6,38 @@
 
 <head>
     <?php include 'meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | About Us</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="about Agile Cares, Agile Cares, supported living provider, independent living services, disability support services, person-centered care, disability care provider, developmental disability support, supported living services, independent living support, disability empowerment, community living support, life skills development, inclusive support services, disability assistance, special needs support services, behavioral support services, residential support services, disability advocacy, community integration, personalized care services, compassionate disability care, quality disability support, community-based support services, supported independent living, adult disability services, independence and empowerment" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="Learn about AGILE CARES, our mission, values, and commitment to providing person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | About Us" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="Discover AGILE CARES and our commitment to person-centered support that empowers individuals with disabilities to live with dignity, independence, confidence, and meaningful community connection." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
+        content="<?php echo $websiteUrl ?>/about-us" />
+
     <meta property="og:site_name"
         content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | About Us" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Learn more about AGILE CARES, our mission, values, and person-centered approach to supported living and independent living services." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -37,8 +47,8 @@
     <?php include 'header.php'; ?>
 
          <section class="slide">
-            <div class=" other-slide2">
-                <div class="slide-inner-div">
+            <div class="other-slide2">
+                <div class="slide-inner-div" data-aos="fade-in" data-aos-duration="900">
                     <div class="text-div">
                       <div class="breadcrumb">
                             <a href="<?php echo $websiteUrl ?>">
@@ -58,7 +68,7 @@
                                 to live with dignity, confidence and independence.
                             </p>
                             <div class="btn-div">  
-                                <a href="<?php echo $websiteUrl ?>/Services" class="service-btn" title="Our Services"> 
+                                <a href="<?php echo $websiteUrl ?>/services" class="service-btn" title="Our Services"> 
                                     Our Services <i class="bi bi-arrow-right-circle"></i> 
                                 </a> 
 
@@ -76,11 +86,11 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="about-div">
-                    <div class="about-image">
+                    <div class="about-image" data-aos="fade-in" data-aos-duration="1000">
                          <img src="all-images/images/about-image2.png" alt="about-image">
                     </div>
 
-                    <div class="text-div">
+                    <div class="text-div" data-aos="fade-in" data-aos-duration="1000">
                         <div class="title">
                             <h3>ABOUT US</h3>
                         </div>
@@ -102,7 +112,7 @@
 
          <section class="review-body ">
             <div class="review-body-div-in">
-                <div class="review-div aboutus-review">  
+                <div class="review-div aboutus-review" data-aos="fade-in" data-aos-duration="1000">  
                     <div class="review-div-in">  
 
                         <div class="text-icon-div"> 
@@ -113,7 +123,6 @@
                             </div> 
                         </div> 
 
-
                         <div class="text-icon-div"> 
                             <i class="bi bi-people"></i> 
                             <div class="text-div"> 
@@ -122,7 +131,6 @@
                             </div> 
                         </div> 
 
-
                         <div class="text-icon-div"> 
                             <i class="bi bi-person-heart"></i> 
                             <div class="text-div"> 
@@ -130,7 +138,6 @@
                                 <p>Care plans tailored to individual needs</p> 
                             </div> 
                         </div> 
-
 
                         <div class="text-icon-div"> 
                             <i class="bi bi-people-fill"></i> 
@@ -145,7 +152,7 @@
         </section>
         <section class="body-div">
             <div class="body-div-in">
-                <div class="mission-div">
+                <div class="mission-div" data-aos="fade-in" data-aos-duration="1000">
                     <div class="text-div">
                         <h2>Our mission</h2>
                             <div class="icon-div">
@@ -177,16 +184,14 @@
                                 <p>Years Of Hands-on caregiving Experince</p>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </section>
 
         <section class="body-div">
             <div class="body-div-in">
-                <div class="testimony-div">
+                <div class="testimony-div" data-aos="fade-up" data-aos-duration="1500">
                     <div class="testimony-content">
                     <h3>Why Families Choose <br><span class="highlight-ct"><?php echo $appName ?></span></h3>
 
@@ -197,7 +202,7 @@
                     <li><i class="bi bi-check-circle"></i>Built on Faith, Integrity & Accountability</li>
                     </div>
 
-                    <div class="testimony-card">
+                    <div class="testimony-card" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card-content content-bg">
                             <div class="icon-div">
                                 <i class="fa-solid fa-handshake"></i>
@@ -248,11 +253,11 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="experience-div">
-                    <div class="experience-image">
+                    <div class="experience-image" data-aos="fade-in" data-aos-duration="1500">
                         <img src="all-images/images/about-image2.png" alt="about-image">
                     </div>
 
-                    <div class="experience-text">
+                    <div class="experience-text" data-aos="fade-in" data-aos-duration="1500">
                         <h3>Built On Experience</h3>
                         <h2>30 Years Of Hands-on caregiving</h2>
                         <p>AGILE was born from more than three decades of frontline
@@ -288,7 +293,7 @@
                 </div>
 
                 <div class="reviews-grid">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
                         <div class="review-top">
                             <div class="review-avatar">
                                 JD
@@ -318,7 +323,7 @@
 
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
 
                         <div class="review-top">
                             <div class="review-avatar">
@@ -350,7 +355,7 @@
 
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
 
                         <div class="review-top">
                             <div class="review-avatar">

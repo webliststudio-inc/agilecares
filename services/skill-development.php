@@ -5,28 +5,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Skill Development Services</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="skill development services, skill development support, Agile Cares skill development, life skills development, independent living skills, disability skill development, developmental disability support, supported living services, independent living support, disability support services, person-centered care, daily living skills, social skills development, communication skills, community living skills, disability empowerment, supported independent living, special needs support, personalized support services, community-based support services, adult disability support, disability care services, independent living services, disability assistance, life skills training, practical skills development, community integration, disability care provider, inclusive support services" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides person-centered skill development support that helps individuals build practical life skills, confidence, independence, communication, and abilities needed for meaningful everyday living." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Skill Development Services" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides personalized skill development support designed to help individuals build practical life skills, confidence, independence, communication, and community participation." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/skill-development" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Skill Development Services" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Discover AGILE CARES skill development support, helping individuals develop practical life skills, confidence, communication, independence, and meaningful community participation." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -48,7 +57,7 @@
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/skill-development">
-                              <span>skill-development</span>
+                              <span>Skill Development</span>
                             </a>
                       </div>
 

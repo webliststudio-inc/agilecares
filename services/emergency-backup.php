@@ -6,28 +6,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Emergency Backup Support</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="emergency backup support, emergency backup services, Agile Cares emergency support, disability emergency support, supported living emergency support, independent living support, disability support services, emergency care assistance, person-centered care, disability care services, developmental disability support, supported living services, independent living services, special needs support, personalized support services, community-based support services, disability assistance, adult disability services, compassionate care services, supported independent living, disability care provider, emergency support services, quality disability care, community living support, daily living assistance, inclusive support services" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides emergency backup support to help individuals receiving care maintain continuity, safety, and stability when their usual support arrangements are unexpectedly unavailable." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Emergency Backup Support" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides reliable emergency backup support to help maintain continuity, safety, and stability when regular support arrangements are unexpectedly unavailable." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/emergency-backup" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Emergency Backup Support" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Learn about AGILE CARES emergency backup support, helping individuals maintain safe, stable, and consistent care when regular support is unexpectedly unavailable." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -50,7 +59,7 @@
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/emergency-backup">
-                              <span>emergency-backup</span>
+                              <span>Emergency Backup</span>
                             </a>
                       </div>
 

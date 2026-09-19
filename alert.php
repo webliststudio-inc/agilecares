@@ -23,14 +23,14 @@
 
 <div class="sidenavdiv">
     <div class="live-chat-back-div">
-    <a href="tel:+1 (209) 741-0783" title="Call Customer Care">
+    <a href="tel:+12097410783" title="Call Customer Care">
         <div class="chat-div">
             <div class="icon-div" style="background:#008040;"><i class="bi-telephone-outbound"></i></div>
             <div class="text">+1(209) 741-0783</div>
           <br clear="all" />
         </div>
     </a>
-    <a href="https://api.whatsapp.com/" target="_blank" title="Whatsapp">
+    <a href="https://api.whatsapp.com/send?text=Hello AGILE CARES&phone= +1 (209) 741-0783" target="_blank" title="Whatsapp">
         <div class="chat-div">
             <div class="icon-div" style="background:#25D366;"><i class="bi-whatsapp"></i></div>
             <div class="text">+1(209) 741-0783</div>
@@ -38,7 +38,7 @@
         </div>
     </a>
 
-    <a href="https://www.facebook.com/" target="_blank" title="Facebook">
+    <a href="https://www.facebook.com/profile.php?id=61594706722310&mibextid=wwXIfr" target="_blank" title="Facebook">
         <div class="chat-div">
             <div class="icon-div" style="background:#2980b9;"><i class="bi-facebook"></i></div>
             <div class="text">Facebook Page </div>
@@ -46,15 +46,7 @@
         </div>
     </a>
 
-    <a href="https://twitter.com/" target="_blank" title="Twitter">
-        <div class="chat-div">
-            <div class="icon-div" style="background:#3498db;"><i class="bi-twitter"></i></div>
-            <div class="text">Twitter Page</div>
-          <br clear="all" />
-        </div>
-    </a>
-
-    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+    <a href="https://www.instagram.com/agile_cares" target="_blank" title="Instagram">
         <div class="chat-div">
             <div class="icon-div" style="background-image: linear-gradient(to right,#03F, #F0F);"><i class="bi-instagram"></i></div>
             <div class="text">Instagram Page</div>
@@ -62,8 +54,6 @@
         </div>
     </a>
 </div>
-
-
 
 
 <div class="index-menu-back-div">

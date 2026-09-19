@@ -1,6 +1,6 @@
 <section class="body-div help-section-bg">
     <div class="body-div-in">
-        <div class="help-section">
+        <div class="help-section" data-aos="fade-in" data-aos-duration="1500">
             <div class="help-content">
 
                 <div class="help-logo">
@@ -26,7 +26,7 @@
                     <span>Call us: (209) 741-0783</span> 
                 </a> 
 
-                <a href="<?php echo $websiteUrl ?>/#" class="contact-btn"title="Contact AGILE Cares">
+                <a href="<?php echo $websiteUrl ?>/contact-us" class="contact-btn"title="Contact AGILE Cares">
                     <span>Contact Us</span> 
                     <i class="bi bi-arrow-right-circle"></i>
                 </a> 
@@ -41,9 +41,8 @@
 <footer class="footer-section">
 
     <div class="footer-section-in">
-
         <!-- FOOTER BRAND -->
-        <div class="footer-brand">
+        <div class="footer-brand" data-aos="fade-up" data-aos-duration="1500">
 
             <div class="footer-logo">
                 <img src="<?php echo $websiteUrl ?>/all-images/images/logo.png" alt="AGILE Cares">
@@ -55,34 +54,23 @@
             </p>
 
             <div class="social-links">
-
-                <a href="#" title="Facebook">
+                  <a href="https://www.facebook.com/profile.php?id=61594706722310&mibextid=wwXIfr" target="_blank" title="Facebook">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
 
-                <a href="#" title="Instagram">
+                <a href="https://www.instagram.com/agile_cares" target="_blank" title="Instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
 
-                <a href="#" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-
-                <a href="#" title="X">
-                    <i class="fa-brands fa-x-twitter"></i>
-                </a>
-
-                <a href="#" title="WhatsApp">
+                <a href="https://api.whatsapp.com/send?text=Hello AGILE CARES&phone= +1 (209) 741-0783" target="_blank" title="WhatsApp">
                     <i class="fa-brands fa-whatsapp"></i>
                 </a>
-
             </div>
-
         </div>
 
 
         <!-- QUICK LINKS -->
-        <div class="footer-column">
+        <div class="footer-column" data-aos="fade-up" data-aos-duration="1200">
 
             <h3>Quick Links</h3>
 
@@ -136,7 +124,7 @@
 
 
         <!-- OUR SERVICES -->
-        <div class="footer-column">
+        <div class="footer-column" data-aos="fade-up" data-aos-duration="1000">
             <h3>Our Services</h3>
             <ul>
 
@@ -186,7 +174,7 @@
         </div>
 
         <!-- CONTACT -->
-        <div class="footer-column">
+        <div class="footer-column" data-aos="fade-up" data-aos-duration="900">
 
             <h3>Contact Us</h3>
 
@@ -253,9 +241,7 @@
             </div>
 
         </div>
-
     </div>
-
 
     <!-- FOOTER BOTTOM -->
     <div class="footer-bottom">
@@ -264,7 +250,7 @@
 
            <div class="pdiv">
              <p>Copyright © 2026 . All Rights Reserved </p>
-            <a href="https://webliststudio.com/"> 
+            <a href="https://webliststudio.com/" target="_blank"> 
                 <p>Developed by Weblist Studio Solution Inc.</p> 
             </a> 
            </div> 

@@ -33,11 +33,10 @@
     </head>
 
     <body>
-        <?php include 'alert.php'; ?>
         <?php include 'header.php'; ?>
 
         <section class="slide">
-            <div class="slide-section">
+            <div class="slide-section" data-aos="fade-in" data-aos-duration="1200">
                 <div class="slide-inner-div">
                     <div class="text-div">
                         <h1>Supported Living Services (SLS)</h1>
@@ -58,7 +57,7 @@
         </section>
 
     <section class="index-section">
-        <section class="review-body">
+        <section class="review-body" data-aos="fade-in" data-aos-duration="900">
         <div class="review-body-div-in">
             <div class="review-div">  
                 <div class="review-div-in">  
@@ -105,7 +104,7 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="mission-div">
-                    <div class="text-div">
+                    <div class="text-div" data-aos="fade-up" data-aos-duration="1200">
                         <h2>Our mission</h2>
                             <div class="icon-div">
                             <i class="bi bi-heart-fill"></i>
@@ -115,10 +114,11 @@
                         <span>-Built On Nuture & Grace</span>
 
                         <button class="disc-btn" title="Discover Our Story">
-                            Discover Our Story <i class="bi bi-arrow-right"></i>
+                            <a href="<?php echo $websiteUrl ?>/about-us" title="About Us"> 
+                            Discover Our Story <i class="bi bi-arrow-right"></i></a>
                         </button>
                     </div>
-                    <div class="mission-image-wrapper">
+                    <div class="mission-image-wrapper" data-aos="fade-in" data-aos-duration="1200">
                         <div class="image-div">
                             <img src="all-images/body-pix/mission.jpeg" alt="mission-iamge">
                             <div class="icon-overlay">
@@ -146,7 +146,7 @@
         <section class="body-div">
         <div class="body-div-in">
             <div class="services-div">
-                <div class="text-content">
+                <div class="text-content" data-aos="zoom-in" data-aos-duration="1200">
                     <div class="service-title">
                         <h3>OUR SERVICES</h3>
                     </div>
@@ -158,7 +158,7 @@
                 </div>
 
                 <div class="image-content">
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="Personal Care & Daily Living" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/image_1.jpg" alt="supported-living-services">
                         </div>
@@ -174,14 +174,14 @@
                                     Assistance with bathing, dressing, grooming, mobility, toileting, and other essential daily activities....
                                 </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/personal-care" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="Health & Medication Support" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/Caregiver_assisting_with_medication.jpeg"alt="medication-administration">
                         </div>
@@ -199,14 +199,14 @@
                                 and coordination with...
                             </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/health-medication" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="Household Management" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/Household Management.jpeg" alt="safety-accountability">
                         </div>
@@ -222,14 +222,14 @@
                                 Support with meal preparation, cleaning, laundry, shopping, and coordinating home maintenance.
                             </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/household-management" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="Behavioral & Support" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/Behavioral & Support.jpeg"alt="Behavioral Support Services">
                         </div>
@@ -245,14 +245,14 @@
                             Individualized assistance and coordination with behavioral specialists and other professionals when needed.
                             </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/behavioral-support" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="24-Hour Emergency Backup" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/emergency-support-24-7.jpg"alt="emergency-support-24-7">
                         </div>
@@ -268,14 +268,14 @@
                             Access to a designated support contact at any hour for urgent needs and emergencies.
                             </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/emergency-backup" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
                         </div>
                     </div>
 
-                    <div class="service-image-card">
+                    <div class="service-image-card" title="Independent Living Skill Development" data-aos="fade-in" data-aos-duration="1500">
                         <div class="image-div">
                             <img src="all-images/services/Independent Living Skill Development.jpeg"alt="community-circles-of-support">
                         </div>
@@ -291,7 +291,7 @@
                             Personalized instruction and encouragement to help individuals build confidence and perform daily...
                             </p>
 
-                            <a href="#">
+                            <a href="<?php echo $websiteUrl ?>/services/skill-development" title="Learn More">
                                 Learn More
                                 <i class="fa-solid fa-arrow-right"></i>
                             </a>
@@ -308,7 +308,7 @@
 
         <section class="body-div">
             <div class="body-div-in">
-                <div class="testimony-div">
+                <div class="testimony-div" data-aos="fade-up" data-aos-duration="1500">
                     <div class="testimony-content">
                     <h3>Why Families Choose <br><span class="highlight-ct"><?php echo $appName ?></span></h3>
 
@@ -319,7 +319,7 @@
                     <li><i class="bi bi-check-circle"></i>Built on Faith, Integrity & Accountability</li>
                     </div>
 
-                    <div class="testimony-card">
+                    <div class="testimony-card" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card-content content-bg">
                             <div class="icon-div">
                                 <i class="fa-solid fa-handshake"></i>
@@ -370,9 +370,9 @@
         <section class="body-div">
             <div class="body-div-in">
                 <div class="services-div eligible-div">
-                    <div class="text-content">
+                    <div class="text-content" data-aos="zoom-in" data-aos-duration="1500">
                         <div class="service-title">
-                            <h3><i class="bi bi-people-fill"></i> WHO IS ELIGIBLE</h3>
+                            <h3>WHO IS ELIGIBLE</h3>
                         </div>
 
                         <h2>Who Can Receive <span>Support</span></h2>
@@ -388,7 +388,7 @@
                     </div>
 
                     <div class="eligibility-card-div">
-                        <div class="eligibility-card"> 
+                        <div class="eligibility-card" data-aos="fade-up" data-aos-duration="1000"> 
                             <div class="card-icon"> 
                                 <i class="bi bi-person-fill-add"></i> 
                             </div> 
@@ -400,7 +400,7 @@
                             </div> 
                         </div> 
 
-                        <div class="eligibility-card colorgreen"> 
+                        <div class="eligibility-card colorgreen" data-aos="fade-up" data-aos-duration="1000"> 
                             <div class="card-icon colorgreen2"> 
                                 <i class="bi bi-house-heart-fill"></i> 
                             </div> 
@@ -413,7 +413,7 @@
                         </div> 
 
 
-                        <div class="eligibility-card colorgreen"> 
+                        <div class="eligibility-card colorgreen" data-aos="fade-up" data-aos-duration="1200"> 
                             <div class="card-icon colorgreen2"> 
                                 <i class="bi bi-house-check-fill"></i> 
                             </div> 
@@ -425,7 +425,7 @@
                             </div> 
                         </div> 
 
-                        <div class="eligibility-card"> 
+                        <div class="eligibility-card" data-aos="fade-up" data-aos-duration="1200"> 
                             <div class="card-icon"> 
                                 <i class="bi bi-person-heart"></i> 
                             </div> 
@@ -456,14 +456,14 @@
                         </h2>
                     </div>
 
-                    <a href="/contact_us" class="submit-review-btn">
+                    <a href="<?php echo $websiteUrl?>/contact-us" class="submit-review-btn">
                         Submit Review
                         <i class="bi bi-arrow-right-circle"></i>
                     </a>
                 </div>
 
                 <div class="reviews-grid">
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
                         <div class="review-top">
                             <div class="review-avatar">
                                 JD
@@ -493,7 +493,7 @@
 
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
 
                         <div class="review-top">
                             <div class="review-avatar">
@@ -525,7 +525,7 @@
 
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card" data-aos="fade-in" data-aos-duration="1000">
 
                         <div class="review-top">
                             <div class="review-avatar">

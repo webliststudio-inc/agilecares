@@ -6,28 +6,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Health & Medication Support</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="health and medication support, medication support services, Agile Cares health support, disability health support, medication assistance, supported living health services, independent living health support, disability support services, person-centered care, healthcare support services, medication management support, developmental disability support, supported living services, independent living services, disability care services, special needs support, personalized care services, daily living assistance, adult disability support, community-based support services, compassionate care services, supported independent living, disability care provider, health and wellness support, inclusive support services, disability assistance" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides person-centered health and medication support to help individuals maintain their well-being, follow appropriate medication routines, and receive respectful assistance with their daily health needs." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Health & Medication Support" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides personalized health and medication support designed to promote well-being, safe routines, independence, and continuity of care." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/health-medication" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Health & Medication Support" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Learn about AGILE CARES health and medication support, helping individuals manage daily health needs with dignity, personalized assistance, and person-centered care." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -45,12 +54,12 @@
                                 Home
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
-                            <a href="<?php echo $websiteUrl ?>/Services">
+                            <a href="<?php echo $websiteUrl ?>services">
                               <span> Services</span>
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/health-medication">
-                              <span>health-medication</span>
+                              <span>Health Medication</span>
                             </a>
                       </div>
 
