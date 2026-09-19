@@ -117,20 +117,20 @@
 }
 
 .other-slide2 .slide-inner-div .text-div .breadcrumb i{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--white-color);
     font-family: sub-title-font;
 }
 
 .other-slide2 .slide-inner-div .text-div .breadcrumb a{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--white-color);
     font-family: sub-title-font;
     text-decoration: none;
 }
 
 .other-slide2 .slide-inner-div .text-div .breadcrumb a span{
-    font-size: 18px;
+    font-size: 15px;
     color: var(--white-color);
     font-family: sub-title-font;
 }
@@ -144,7 +144,7 @@
 }
 
 .other-slide2 .slide-inner-div .text-div .title h1{
-    font-size: 50px;
+    font-size: 45px;
     line-height: 55px;
     font-family: title-font;
     color: var(--white-color);
@@ -1399,7 +1399,7 @@ color:var(--primary-color);
 
     .contact-info-div .contact-info-div-in .image-text-div{
         width: 90%;
-        border-bottom: var(--text-color) 3px dotted;
+        border-bottom: #e0dede 3px dotted;
         padding: 14px;
     }
 

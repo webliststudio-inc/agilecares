@@ -6,28 +6,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Personal Care Services</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="personal care services, personal care support, Agile Cares personal care, disability personal care, supported living services, independent living support, disability support services, person-centered care, personal hygiene assistance, daily living assistance, personal care assistance, developmental disability support, supported independent living, disability care services, special needs support, personalized care services, adult disability support, community-based support services, compassionate care services, inclusive support services, disability care provider, independent living services, disability assistance, dignity in care, personal independence, daily care support, person-centered personal care, community living support" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides respectful, person-centered personal care support that assists individuals with daily personal needs while promoting dignity, privacy, comfort, confidence, and independence." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Personal Care Services" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides personalized personal care support focused on dignity, privacy, comfort, independence, and the individual needs of each person we support." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/personal-care" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Personal Care Services" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Discover AGILE CARES personal care support, providing respectful assistance with daily personal needs while promoting dignity, privacy, comfort, and independence." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>

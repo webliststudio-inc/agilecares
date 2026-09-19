@@ -5,28 +5,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Community Access Services</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="community access services, community access support, Agile Cares community access, disability community access, community integration services, disability support services, supported living services, independent living support, community participation, community inclusion, person-centered support, disability empowerment, social participation support, community-based support services, developmental disability support, adult disability services, special needs support, life skills development, independent living services, personalized disability care, supported independent living, disability assistance, community engagement, inclusive community support, disability care provider, compassionate care services" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides person-centered community access services that support individuals with disabilities in participating in community activities, building social connections, developing independence, and engaging meaningfully in everyday life." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Community Access Services" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES supports individuals with disabilities in accessing their communities, developing independence, building connections, and participating in meaningful everyday activities." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/community-access" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Community Access Services" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Discover AGILE CARES community access services designed to promote inclusion, independence, social connection, and meaningful participation in the community." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -48,7 +57,7 @@
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/community-access">
-                              <span>community-access</span>
+                              <span>Community Access</span>
                             </a>
                       </div>
 

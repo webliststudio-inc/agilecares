@@ -6,28 +6,38 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Behavioral Support Services</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="behavioral support services, behavioral support, Agile Cares behavioral support, positive behavioral support, disability behavioral support, developmental disability support, person-centered behavioral support, individualized support services, behavior management support, independent living support, supported living services, disability care services, special needs support, life skills development, community-based support, personalized disability care, compassionate care services, disability empowerment, adult disability support, community integration, behavioral care services, supported independent living, person-centered care, disability assistance programs, quality disability support" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides person-centered behavioral support services designed to help individuals develop positive coping strategies, build life skills, strengthen independence, and participate meaningfully in their communities." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Behavioral Support Services" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides personalized behavioral support focused on individual needs, positive development, independence, life skills, and meaningful community participation." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
+        content="<?php echo $websiteUrl ?>/services/behavioral-support" />
+
     <meta property="og:site_name"
         content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Behavioral Support Services" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Discover AGILE CARES behavioral support services focused on personalized care, positive development, life skills, independence, and community connection." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -50,7 +60,7 @@
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/behavioral-support">
-                              <span>behavioral-support</span>
+                              <span>Behavioral Support</span>
                             </a>
                       </div>
 

@@ -1,9 +1,10 @@
-<header>
+<?php include 'alert.php'; ?>
+<header class="animated fadeInDown">
     <div class="header-top">
         <div class="header-top-div-in">
             <div class="contact-div1">
-              <p><i class="bi bi-telephone-fill"></i>+1(209) 741-0783</p>
-              <p><i class="bi bi-envelope-fill"></i> info@agilecares.com</p>
+              <p><a href="tel:+12097410783" title="Call Us"><i class="bi bi-telephone-fill"></i>+1 (209) 741-0783</a></p>
+              <p><a href="mailto:info@agilecares.com" title="Email Us"><i class="bi bi-envelope-fill"></i> info@agilecares.com</a></p>
               <p class="disp-remv"><i class="bi bi-headset"></i> 24/7 services available</p>
             </div>
 
@@ -11,14 +12,16 @@
                <p>Follow Us:</p>
 
              <div class="icon-div">
-                 <a href="https://www.facebook.com/agilecares" target="_blank"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.instagram.com/agilecares" target="_blank"><i class="bi bi-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/agilecares" target="_blank"><i class="bi bi-linkedin"></i></a>
+                 <a href="https://www.facebook.com/profile.php?id=61594706722310&mibextid=wwXIfr" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/agile_cares" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?text=Hello AGILE CARES&phone= +1 (209) 741-0783" target="_blank" title="Whatsapp"><i class="bi bi-whatsapp"></i></a>
              </div>
             </div>
 
             <button class="top-mobile btn">
+                <a href="tel:+12097410783" title="Call Us">
                  <i class="bi bi-telephone-fill"></i>+1 (209) 741-0783
+                </a>
             </button>
         </div>
     </div>
@@ -26,9 +29,10 @@
     <div class="header-bottom">
             <div class="header-bottom-div-in">
                   <div class="left-wrapper">
+                    <a href="<?php echo $websiteUrl ?>" title="AGILE CARES">
                      <div class="logo-div">
                         <img src="<?php echo $websiteUrl ?>/all-images/images/logo2.png" alt="AGILE CARES Logo" />
-                     </div>
+                     </div></a>
                   </div>
 
                   <div class="right-wrapper">
@@ -64,7 +68,7 @@
                                     </li>
                                 </a>
 
-                                <a href="<?php echo $websiteUrl ?>/brochure/AGILE SLS Trifold Brochure.pdf" title="Download Brochure"class="disp-none">
+                                <a href="<?php echo $websiteUrl ?>/brochure/AGILE SLS Trifold Brochure.pdf" title="Download Brochure"class="disp-none" target="_blank">
                                     <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/brochure")) { ?>active<?php } ?>">
                                         Download Brochure
                                     </li>

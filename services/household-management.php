@@ -6,28 +6,37 @@
 
 <head>
     <?php include '../meta.php' ?>
-    <title><?php echo $appName ?> | Supported Living & Independent Living Services</title>
-
+    <title><?php echo $appName ?> | Household Management Services</title>
     <meta name="keywords"
-        content="supported living services, independent living services, disability support services, developmental disability support, assisted independent living, person-centered care, disability empowerment, community living support, life skills development, disability care provider, inclusive support services, supported independent living, disability assistance programs, special needs support services, independent living empowerment, disability care services, supported housing services, adult disability services, independent living support, disability community programs, daily living assistance, behavioral support services, residential support services, disability advocacy, community integration services, life enrichment programs, disability empowerment services, quality disability care, personalized support services, disability resource services, compassionate care services, supported living provider, developmental services, independent living programs, disability support agency, special needs care, independent living assistance, community-based support services, disability care organization, empowerment through independence" />
+        content="household management services, household support services, Agile Cares household management, disability household support, supported living services, independent living support, daily living assistance, disability support services, person-centered care, household assistance, home management support, life skills development, developmental disability support, supported independent living, disability care services, special needs support, personalized support services, community-based support services, adult disability support, independent living services, disability assistance, compassionate care services, inclusive support services, disability care provider, home living skills, household independence, community living support" />
+
     <meta name="description"
-        content="AGILE CARES provides person-centered supported living and independent living services that empower individuals with disabilities to live with dignity, confidence, independence, and meaningful community engagement." />
+        content="AGILE CARES provides person-centered household management support that helps individuals develop and maintain everyday home living skills, promote independence, and manage their living environment with confidence and dignity." />
+
     <meta property="og:type" content="website" />
+
     <meta property="og:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Household Management Services" />
+
     <meta property="og:description"
-        content="AGILE CARES provides person-centered supported living and independent living services that promote dignity, independence, confidence, and meaningful community participation." />
+        content="AGILE CARES provides personalized household management support, helping individuals build everyday living skills, maintain their homes, and develop greater independence and confidence." />
+
     <meta property="og:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
+
     <meta property="og:url"
-        content="<?php echo $websiteUrl ?>" />
-    <meta property="og:site_name"
-        content="<?php echo $appName ?>" />
+        content="<?php echo $websiteUrl ?>/services/household-management" />
+
+    <meta property="og:site_name" content="<?php echo $appName ?>" />
+
     <meta name="twitter:card" content="summary_large_image" />
+
     <meta name="twitter:title"
-        content="<?php echo $appName ?> | Supported Living & Independent Living Services" />
+        content="<?php echo $appName ?> | Household Management Services" />
+
     <meta name="twitter:description"
-        content="Person-centered supported living and independent living services from AGILE CARES, helping individuals live with dignity, confidence, independence, and community connection." />
+        content="Discover AGILE CARES household management support, helping individuals develop practical home living skills, maintain their living environment, and build independence." />
+
     <meta name="twitter:image"
         content="<?php echo $websiteUrl ?>/all-images/plugin-pix/agilecares.jpeg" />
 </head>
@@ -50,7 +59,7 @@
                             </a>
                             <span><i class="bi bi-caret-right-fill"></i></span>
                             <a href="<?php echo $websiteUrl ?>/household-management">
-                              <span>household-management</span>
+                              <span>Household Management</span>
                             </a>
                       </div>
 
