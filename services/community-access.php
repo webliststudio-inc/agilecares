@@ -89,7 +89,7 @@
                         <div class="learn-more-image-text">
 
                             <div class="image-div">
-                               <img src="../all-images/services/image_1.jpg" alt="">
+                               <img src="../all-images/services/commuity-access.png"alt="commuity-access">
                             </div>
 
                             <div class="text-div">

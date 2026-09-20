@@ -184,8 +184,8 @@
                       <i class="fa-solid fa-location-dot"></i>
 
                         <p>
-                            2175 Devin Court,<br>
-                            Tracy, CA 95376
+                             CA 95376,<br>
+                             Tracy, California USA
                         </p>
 
                     </div>

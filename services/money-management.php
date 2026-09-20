@@ -88,7 +88,7 @@
                 <div class="learn-more-content">
                     <div class="learn-more-image-text">
                         <div class="image-div">
-                            <img src="../all-images/services/image_1.jpg" alt="">
+                            <img src="../all-images/services/money-management.png"alt="money-management">
                         </div>
 
                         <div class="text-div">

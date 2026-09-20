@@ -116,13 +116,13 @@
 
                             <div class="info-text-div">
                                 <h3>LOCATION</h3>
-                                <p>San Francisco California, USA.</p>
+                                <p>Tracy, California USA</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="loaction-map">
-                    <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.865897083461!2d144.96623407588555!3d-37.81660997197489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b657457533%3A0x18eb501e6562371e!2sLevel%207%2F180%20Flinders%20St%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sng!4v1770112721709!5m2!1sen!2sng" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="google-map"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12600!2d-121.4327!3d37.7369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2sTracy%2C%20CA%2095376%2C%20USA!5e0!3m2!1sen!2sng!4v1770112721709!5m2!1sen!2sng"style="border:0;"allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
         </section>
 
