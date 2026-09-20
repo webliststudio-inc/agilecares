@@ -254,7 +254,7 @@
             <div class="body-div-in">
                 <div class="experience-div">
                     <div class="experience-image" data-aos="fade-in" data-aos-duration="1500">
-                        <img src="all-images/images/about-image2.png" alt="about-image">
+                        <img src="all-images/images/founder-image2.png" alt="about-image">
                     </div>
 
                     <div class="experience-text" data-aos="fade-in" data-aos-duration="1500">

@@ -234,7 +234,7 @@
 
                                 <div class="service-image-card" title="Money Management" data-aos="fade-in" data-aos-duration="1500">
                                     <div class="image-div">
-                                        <img src="../all-images/services/Behavioral & Support.jpeg"alt="Behavioral Support Services">
+                                        <img src="../all-images/services/money-management.png"alt="money-management">
                                     </div>
 
                                     <div class="service-content">
@@ -255,7 +255,7 @@
 
                                 <div class="service-image-card" title="Community Access & Inclusion" data-aos="fade-in" data-aos-duration="1500">
                                     <div class="image-div">
-                                        <img src="../all-images/services/emergency-support-24-7.jpg"alt="emergency-support-24-7">
+                                        <img src="../all-images/services/commuity-access.png"alt="commuity-access">
                                     </div>
 
                                     <div class="service-content">
