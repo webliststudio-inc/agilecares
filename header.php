@@ -68,11 +68,15 @@
                                     </li>
                                 </a>
 
-                                <a href="<?php echo $websiteUrl ?>/brochure/AGILE SLS Trifold Brochure.pdf" title="Download Brochure"class="disp-none" target="_blank">
+                                <a href="<?php echo $websiteUrl; ?>/brochure/AGILE-SLS-Trifold-Brochure.pdf"
+                                    onclick="_downloadBrochure(event);"
+                                    title="Download Brochure"
+                                    class="disp-none">
                                     <li class="<?php if (strstr($websiteAutoUrl, "$websiteUrl/brochure")) { ?>active<?php } ?>">
                                         Download Brochure
                                     </li>
                                 </a>
+
                                 <li id="readMore" class="read-more-li">
                                     <i class="bi bi-plus"></i> More
                                     <ul>
