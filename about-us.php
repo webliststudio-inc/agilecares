@@ -286,7 +286,7 @@
                         </h2>
                     </div>
 
-                    <a href="/contact_us" class="submit-review-btn">
+                    <a href="<?php echo $websiteUrl; ?>/contact-us" class="submit-review-btn">
                         Submit Review
                         <i class="bi bi-arrow-right-circle"></i>
                     </a>
