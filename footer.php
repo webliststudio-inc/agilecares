@@ -184,7 +184,6 @@
                       <i class="fa-solid fa-location-dot"></i>
 
                         <p>
-                             CA 95376,<br>
                              Tracy, California USA
                         </p>
 
