@@ -2,7 +2,6 @@
     <div class="body-div-in">
         <div class="help-section" data-aos="fade-in" data-aos-duration="1500">
             <div class="help-content">
-
                 <div class="help-logo">
                     <img src="<?php echo $websiteUrl ?>/all-images/images/icon.png" alt="AGILE Cares">
                 </div>
@@ -20,7 +19,7 @@
 
             </div>
 
-             <div class="help-buttons"> 
+            <div class="help-buttons"> 
                 <a href="tel:+12097410783" class="call-btn"title="Call AGILE Cares">
                     <i class="bi bi-telephone-inbound"></i> 
                     <span>Call us: (209) 741-0783</span> 
@@ -32,14 +31,12 @@
                 </a> 
 
             </div>
-
         </div>
     </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="footer-section">
-
     <div class="footer-section-in">
         <!-- FOOTER BRAND -->
         <div class="footer-brand" data-aos="fade-up" data-aos-duration="1500">
