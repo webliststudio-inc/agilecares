@@ -272,7 +272,7 @@
             </div>
         </section>
 
-        <section class="body-div">
+        <!-- <section class="body-div">
           <div class="body-div-in">
               <div class="reviews-container">
                 <div class="reviews-header">
@@ -406,7 +406,7 @@
            
           </div>
 
-        </section>
+        </section> -->
 
      <?php include 'footer.php';?>
    </section> 
